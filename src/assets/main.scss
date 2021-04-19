@@ -1,0 +1,25 @@
+body {
+  background-color: #28384D;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-weather {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+
+  .weather-icon {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+  }
+
+  .weather-status {
+    color: #984063
+  }
+  .weather-city {
+    color: #cf9861;
+  }
+}
